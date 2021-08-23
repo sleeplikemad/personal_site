@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+h1 {
+    font-family: Poiret One;
+}
+
+h2 {
+    font-family: Lobster Two;
+}
+
+body {
+    font-family: Poiret One;
+}
+
+body {
+    line-height: 150%;
+    background-image: url('aboutBG1.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#moon {
+    padding-top: 15px;
+}
+
+main {
+    color: ivory;
+    text-align: center;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 0 0 5rem rgba(0, 0, 0, .5);
+}
+

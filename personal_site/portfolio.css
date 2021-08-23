@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+.project {
+    font-family: Poiret One;
+    font-size: 1em;
+    width: calc(100% - 6em);
+    background: rgba(0, 0, 0, .8); 
+    color:ivory;
+    box-shadow: 0 3px 6px -2px #ccc;
+    margin: 2em auto;
+    padding: 1em;
+    overflow: auto;
+}
+
+body {
+    font-family: Poiret One;
+    line-height: 150%;
+    background-image: url('portfolioBG3.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    color: ivory;
+    text-align: left;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, .3);
+    box-shadow: 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+
+section {
+    display: block;
+}

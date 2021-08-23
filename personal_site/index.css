@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+#quote {
+    font-family: Kaushan Script;
+}
+h1 {
+    font-family: Poiret One;
+}
+  
+html, body, section {
+height: 100%;
+}
+
+body {
+    line-height: 150%;
+    font-family: Poiret One;
+    background-image: url('indexBG2.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+}
+
+.left-half {
+    flex: 1;
+    text-align: right;
+    padding: 1rem;
+}
+
+.right-half {
+    flex: 1;
+    padding: 1rem;
+}
+
+
+main {
+    color: ivory;
+    text-align: center;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, .4);
+    box-shadow: 0 0 5rem rgba(0, 0, 0, .5);
+}
